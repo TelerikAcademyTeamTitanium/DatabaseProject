@@ -19,7 +19,7 @@ Telerik Academy 2015 - Database course team project
       - Products_Per_Order.
 
   2. Initial project overview:
-    * Available here in .pdf format: [Project overview](/Documentation/Team_Titanium_Database_project_overview.pdf)
+    * Available in .pdf format: [Project overview](/Documentation/Team_Titanium_Database_project_overview.pdf)
 
 ## Official project page
 [Telerik Academy Database project requirements](https://github.com/TelerikAcademy/Databases/tree/master/21.%20Databases%20Team%20Work%20Project/2015)
