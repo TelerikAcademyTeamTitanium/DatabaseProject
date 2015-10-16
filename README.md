@@ -1,11 +1,11 @@
 # DatabaseProject
 Telerik Academy 2015 - Database course team project
 ## Team Titanium members
-  - Veselin Minev
-  - Denitsa Dimitrova
-  - Ivan Ivanov
-  - Ivan Nikolov
-  - Iliyana Antova
+  - Veselin Minev (a.k.a The Mongo(L)DB Khan)
+  - Denitsa Dimitrova (a.k.a J(a)SON X)
+  - Ivan Ivanov (a.k.a XM(aster)L)
+  - Ivan Nikolov (a.k.a The Zip(per))
+  - Iliyana Antova (a.k.a The SQL Master)
 
 ## Database project topic:
   1. A simple Furniture Factory Database.
