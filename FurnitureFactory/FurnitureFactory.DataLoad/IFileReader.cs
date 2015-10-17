@@ -4,6 +4,6 @@
     {
         void ReadFile(string path);
 
-        bool TryLoadFile(string path);
+        bool CanLoadFile(string path);
     }
 }
