@@ -1,9 +1,11 @@
 ﻿namespace FurnitureFactory.DataLoad
 {
     using System;
+    using System.Globalization;
     using System.IO;
     using System.IO.Compression;
     using System.Linq;
+    using System.Threading.Tasks;
 
     class ZipFileReader : IFileReader
     {
@@ -11,20 +13,16 @@
         {
         }
 
-        public string ZipFilePath { get; private set; }
-
         public static ZipFileReader Create()
         {
             return new ZipFileReader();
         }
 
-        public void ReadFile(string path)
+        public async void ReadFile(string path)
         {
-            if (this.TryLoadFile(path))
+            if (this.CanLoadFile(path))
             {
-                this.ZipFilePath = path;
-
-                ZipArchive zip = ZipFile.OpenRead(this.ZipFilePath);
+                ZipArchive zip = ZipFile.OpenRead(path);
 
                 foreach (ZipArchiveEntry entry in zip.Entries)
                 {
@@ -32,13 +30,13 @@
                     {
                         var temp = entry.FullName.Split('/');
                         this.ValidateFolderName(temp[temp.Length-2]);
-                        zip.ExtractToDirectory(Directory.GetCurrentDirectory());
                     }
                 }
+                await Task.Run(() => zip.ExtractToDirectory(Directory.GetCurrentDirectory()));
             }
         }
 
-        public bool TryLoadFile(string path)
+        public bool CanLoadFile(string path)
         {
             if (!File.Exists(path))
             {
@@ -53,12 +51,15 @@
             return true;
         }
 
-        private void ValidateFolderName(string input)
+        private void ValidateFolderName(string dateToValidate)
         {
-            string[] months = { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"};
-            var date = input.Split('-').ToArray();
-            if (months.Contains(date[1])){
-                Console.WriteLine("Month validated!");
+            try
+            {
+                DateTime.Parse(dateToValidate).ToString("dd-MMM-yyyy", CultureInfo.InvariantCulture);
+            }
+            catch(FormatException)
+            {
+                Console.WriteLine("Invalid Folder Name format at {0}!", dateToValidate);
             }
         }
     }
