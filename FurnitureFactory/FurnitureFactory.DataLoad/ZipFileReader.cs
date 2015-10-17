@@ -1,7 +1,9 @@
 ﻿namespace FurnitureFactory.DataLoad
 {
+    using System;
     using System.IO;
     using System.IO.Compression;
+    using System.Linq;
 
     class ZipFileReader : IFileReader
     {
@@ -28,6 +30,8 @@
                 {
                     if (Path.GetFileName(entry.FullName).Equals(string.Empty))
                     {
+                        var temp = entry.FullName.Split('/');
+                        this.ValidateFolderName(temp[temp.Length-2]);
                         zip.ExtractToDirectory(Directory.GetCurrentDirectory());
                     }
                 }
@@ -47,6 +51,15 @@
             }
 
             return true;
+        }
+
+        private void ValidateFolderName(string input)
+        {
+            string[] months = { "JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"};
+            var date = input.Split('-').ToArray();
+            if (months.Contains(date[1])){
+                Console.WriteLine("Month validated!");
+            }
         }
     }
 }

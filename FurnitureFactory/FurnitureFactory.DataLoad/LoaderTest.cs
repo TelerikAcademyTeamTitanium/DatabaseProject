@@ -11,7 +11,7 @@
         public static void Main()
         {
             ZipFileReader zipReader = ZipFileReader.Create();
-            zipReader.ReadFile("exam.zip");
+            zipReader.ReadFile("../../../../ExcelTables/test.zip");
         }
     }
 }
