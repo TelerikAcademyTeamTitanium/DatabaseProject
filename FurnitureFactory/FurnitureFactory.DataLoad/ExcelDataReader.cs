@@ -9,6 +9,15 @@
 
     public class ExcelDataReader : IFileReader
     {
+        private ExcelDataReader()
+        {
+        }
+
+        public static ExcelDataReader Create()
+        {
+            return new ExcelDataReader();
+        }
+
         public bool CanLoad(string directoryPath)
         {
             if (!Directory.Exists(directoryPath))
@@ -36,7 +45,7 @@
         private void RecursiveDirectoryCrawler(DirectoryInfo root)
         {
             FileInfo[] files = null;
-
+            
             DirectoryInfo[] subDirs = null;
 
             try

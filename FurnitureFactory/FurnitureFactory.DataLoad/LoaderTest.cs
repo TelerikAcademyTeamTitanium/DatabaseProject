@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.IO;
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
@@ -10,8 +11,12 @@
     {
         public static void Main()
         {
+            string zipFilePath = "../../../../ExcelTables/test.zip";
+            FileInfo info = new FileInfo(zipFilePath);
             ZipFileReader zipReader = ZipFileReader.Create();
-            zipReader.ReadFile("../../../../ExcelTables/test.zip");
+            zipReader.ReadFile(zipFilePath);
+            ExcelDataReader excelReader = ExcelDataReader.Create();
+            excelReader.ReadFile(info.DirectoryName);
         }
     }
 }

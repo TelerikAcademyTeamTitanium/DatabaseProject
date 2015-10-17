@@ -22,6 +22,7 @@
         {
             if (this.CanLoad(path))
             {
+                FileInfo info = new FileInfo(path);
                 ZipArchive zip = ZipFile.OpenRead(path);
 
                 foreach (ZipArchiveEntry entry in zip.Entries)
@@ -32,8 +33,9 @@
                         this.ValidateFolderName(temp[temp.Length - 2]);
                     }
                 }
-
-                await Task.Run(() => zip.ExtractToDirectory(Directory.GetCurrentDirectory()));
+                //Currently not async not working!
+                //await Task.Run(() => zip.ExtractToDirectory(info.Directory.ToString()));
+                zip.ExtractToDirectory(info.DirectoryName);
             }
         }
 
