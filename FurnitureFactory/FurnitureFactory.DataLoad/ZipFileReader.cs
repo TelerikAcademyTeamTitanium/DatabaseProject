@@ -4,10 +4,8 @@
     using System.Globalization;
     using System.IO;
     using System.IO.Compression;
-    using System.Linq;
-    using System.Threading.Tasks;
     /// <summary>
-    /// 
+    /// Class that implements IFileReader and uses its methods to read zip files.
     /// </summary>
     public class ZipFileReader : IFileReader
     {
@@ -15,17 +13,17 @@
         {
         }
         /// <summary>
-        /// 
+        /// Create is a public method that returns a new ZipFileReader instance.
         /// </summary>
-        /// <returns></returns>
+        /// <returns>New ZipFileReader instance.</returns>
         public static ZipFileReader Create()
         {
             return new ZipFileReader();
         }
         /// <summary>
-        /// 
+        /// ReadFile from IFileReader is implemented as a zip file reader.
         /// </summary>
-        /// <param name="path"></param>
+        /// <param name="path">Input path pointing to a zip file.</param>
         public async void ReadFile(string path)
         {
             if (this.CanLoad(path))
@@ -47,10 +45,10 @@
             }
         }
         /// <summary>
-        /// 
+        /// CanLoad method gets a file path and checks its validity.
         /// </summary>
-        /// <param name="path"></param>
-        /// <returns></returns>
+        /// <param name="path">Input file path to be checked.</param>
+        /// <returns>Boolean value representing the validity of the input file path.</returns>
         public bool CanLoad(string path)
         {
             if (!File.Exists(path))
