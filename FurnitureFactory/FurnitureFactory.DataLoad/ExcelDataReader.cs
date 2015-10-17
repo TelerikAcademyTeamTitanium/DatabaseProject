@@ -41,32 +41,35 @@
                 RecursiveDirectoryCrawler(currentPathInfo);
             }
         }
-
+        /// <summary>
+        /// Method that recursively walks through a directory tree from a given path.
+        /// </summary>
+        /// <param name="root">Input path to be walked by the crawler.</param>
         private void RecursiveDirectoryCrawler(DirectoryInfo root)
         {
-            FileInfo[] files = null;
+            FileInfo[] filesToBeLoaded = null;
             
-            DirectoryInfo[] subDirs = null;
+            DirectoryInfo[] rootSubDirectories = null;
 
             try
             {
-                files = root.GetFiles("*.*");
+                filesToBeLoaded = root.GetFiles("*.*");
             }   
             catch (DirectoryNotFoundException e)
             {
                 Console.WriteLine(e.Message);
             }
 
-            if (files != null)
+            if (filesToBeLoaded != null)
             {
-                foreach (FileInfo fi in files)
+                foreach (FileInfo currentFile in filesToBeLoaded)
                 {
-                    Console.WriteLine(fi.FullName);
+                    Console.WriteLine(currentFile.FullName);
                 }
 
-                subDirs = root.GetDirectories();
+                rootSubDirectories = root.GetDirectories();
 
-                foreach (DirectoryInfo dirInfo in subDirs)
+                foreach (DirectoryInfo dirInfo in rootSubDirectories)
                 {
                     RecursiveDirectoryCrawler(dirInfo);
                 }
