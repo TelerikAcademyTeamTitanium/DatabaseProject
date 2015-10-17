@@ -36,6 +36,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExcelDataFeeder.cs" />
     <Compile Include="IFileReader.cs" />
     <Compile Include="LoaderTest.cs" />
     <Compile Include="ZipFileReader.cs" />
