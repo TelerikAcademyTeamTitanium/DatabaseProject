@@ -2,6 +2,7 @@
 {
     using System;
     using System.IO;
+
     /// <summary>
     /// 
     /// </summary>
@@ -10,6 +11,7 @@
         private ExcelDataReader()
         {
         }
+
         /// <summary>
         /// 
         /// </summary>
@@ -18,6 +20,7 @@
         {
             return new ExcelDataReader();
         }
+
         /// <summary>
         /// 
         /// </summary>
@@ -37,6 +40,7 @@
 
             return true;
         }
+
         /// <summary>
         /// 
         /// </summary>
@@ -49,6 +53,7 @@
                 RecursiveDirectoryCrawler(currentPathInfo);
             }
         }
+
         // Method that recursively walks through a directory tree from a given path.
         private void RecursiveDirectoryCrawler(DirectoryInfo root)
         {
@@ -76,7 +81,7 @@
 
                 foreach (DirectoryInfo dirInfo in rootSubDirectories)
                 {
-                    RecursiveDirectoryCrawler(dirInfo);
+                    this.RecursiveDirectoryCrawler(dirInfo);
                 }
             }
         }

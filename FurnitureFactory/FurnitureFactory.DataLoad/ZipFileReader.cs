@@ -4,6 +4,7 @@
     using System.Globalization;
     using System.IO;
     using System.IO.Compression;
+
     /// <summary>
     /// Class that implements IFileReader and uses its methods to read zip files.
     /// </summary>
@@ -12,6 +13,7 @@
         private ZipFileReader()
         {
         }
+
         /// <summary>
         /// Create is a public method that returns a new ZipFileReader instance.
         /// </summary>
@@ -20,6 +22,7 @@
         {
             return new ZipFileReader();
         }
+
         /// <summary>
         /// ReadFile from IFileReader is implemented as a zip file reader.
         /// </summary>
@@ -39,11 +42,13 @@
                         this.ValidateDirectoryName(temp[temp.Length - 2]);
                     }
                 }
+
                 //Currently not async not working!
                 //await Task.Run(() => zip.ExtractToDirectory(info.Directory.ToString()));
                 zip.ExtractToDirectory(info.DirectoryName);
             }
         }
+
         /// <summary>
         /// CanLoad method gets a file path and checks its validity.
         /// </summary>
