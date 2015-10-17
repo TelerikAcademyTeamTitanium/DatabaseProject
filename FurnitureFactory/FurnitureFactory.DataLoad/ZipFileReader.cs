@@ -6,18 +6,26 @@
     using System.IO.Compression;
     using System.Linq;
     using System.Threading.Tasks;
-
-    class ZipFileReader : IFileReader
+    /// <summary>
+    /// 
+    /// </summary>
+    public class ZipFileReader : IFileReader
     {
         private ZipFileReader()
         {
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static ZipFileReader Create()
         {
             return new ZipFileReader();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="path"></param>
         public async void ReadFile(string path)
         {
             if (this.CanLoad(path))
@@ -30,7 +38,7 @@
                     if (Path.GetFileName(entry.FullName).Equals(string.Empty))
                     {
                         var temp = entry.FullName.Split('/');
-                        this.ValidateFolderName(temp[temp.Length - 2]);
+                        this.ValidateDirectoryName(temp[temp.Length - 2]);
                     }
                 }
                 //Currently not async not working!
@@ -38,7 +46,11 @@
                 zip.ExtractToDirectory(info.DirectoryName);
             }
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="path"></param>
+        /// <returns></returns>
         public bool CanLoad(string path)
         {
             if (!File.Exists(path))
@@ -54,7 +66,7 @@
             return true;
         }
 
-        private void ValidateFolderName(string dateToValidate)
+        private void ValidateDirectoryName(string dateToValidate)
         {
             try
             {

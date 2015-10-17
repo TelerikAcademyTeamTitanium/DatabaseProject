@@ -6,18 +6,27 @@
     using System.Linq;
     using System.Text;
     using System.Threading.Tasks;
-
+    /// <summary>
+    /// 
+    /// </summary>
     public class ExcelDataReader : IFileReader
     {
         private ExcelDataReader()
         {
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public static ExcelDataReader Create()
         {
             return new ExcelDataReader();
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="directoryPath"></param>
+        /// <returns></returns>
         public bool CanLoad(string directoryPath)
         {
             if (!Directory.Exists(directoryPath))
@@ -32,7 +41,10 @@
 
             return true;
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="directoryPath"></param>
         public void ReadFile(string directoryPath)
         {
             if (this.CanLoad(directoryPath))
@@ -41,10 +53,7 @@
                 RecursiveDirectoryCrawler(currentPathInfo);
             }
         }
-        /// <summary>
-        /// Method that recursively walks through a directory tree from a given path.
-        /// </summary>
-        /// <param name="root">Input path to be walked by the crawler.</param>
+        // Method that recursively walks through a directory tree from a given path.
         private void RecursiveDirectoryCrawler(DirectoryInfo root)
         {
             FileInfo[] filesToBeLoaded = null;
