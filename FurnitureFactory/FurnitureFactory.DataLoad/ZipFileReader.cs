@@ -20,7 +20,7 @@
 
         public async void ReadFile(string path)
         {
-            if (this.CanLoadFile(path))
+            if (this.CanLoad(path))
             {
                 ZipArchive zip = ZipFile.OpenRead(path);
 
@@ -29,14 +29,15 @@
                     if (Path.GetFileName(entry.FullName).Equals(string.Empty))
                     {
                         var temp = entry.FullName.Split('/');
-                        this.ValidateFolderName(temp[temp.Length-2]);
+                        this.ValidateFolderName(temp[temp.Length - 2]);
                     }
                 }
+
                 await Task.Run(() => zip.ExtractToDirectory(Directory.GetCurrentDirectory()));
             }
         }
 
-        public bool CanLoadFile(string path)
+        public bool CanLoad(string path)
         {
             if (!File.Exists(path))
             {
@@ -57,7 +58,7 @@
             {
                 DateTime.Parse(dateToValidate).ToString("dd-MMM-yyyy", CultureInfo.InvariantCulture);
             }
-            catch(FormatException)
+            catch (FormatException)
             {
                 Console.WriteLine("Invalid Folder Name format at {0}!", dateToValidate);
             }
