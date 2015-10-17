@@ -4,20 +4,29 @@
     using System.Globalization;
     using System.IO;
     using System.IO.Compression;
-    using System.Linq;
-    using System.Threading.Tasks;
 
-    class ZipFileReader : IFileReader
+    /// <summary>
+    /// Class that implements IFileReader and uses its methods to read zip files.
+    /// </summary>
+    public class ZipFileReader : IFileReader
     {
         private ZipFileReader()
         {
         }
 
+        /// <summary>
+        /// Create is a public method that returns a new ZipFileReader instance.
+        /// </summary>
+        /// <returns>New ZipFileReader instance.</returns>
         public static ZipFileReader Create()
         {
             return new ZipFileReader();
         }
 
+        /// <summary>
+        /// ReadFile from IFileReader is implemented as a zip file reader.
+        /// </summary>
+        /// <param name="path">Input path pointing to a zip file.</param>
         public async void ReadFile(string path)
         {
             if (this.CanLoad(path))
@@ -30,15 +39,21 @@
                     if (Path.GetFileName(entry.FullName).Equals(string.Empty))
                     {
                         var temp = entry.FullName.Split('/');
-                        this.ValidateFolderName(temp[temp.Length - 2]);
+                        this.ValidateDirectoryName(temp[temp.Length - 2]);
                     }
                 }
+
                 //Currently not async not working!
                 //await Task.Run(() => zip.ExtractToDirectory(info.Directory.ToString()));
                 zip.ExtractToDirectory(info.DirectoryName);
             }
         }
 
+        /// <summary>
+        /// CanLoad method gets a file path and checks its validity.
+        /// </summary>
+        /// <param name="path">Input file path to be checked.</param>
+        /// <returns>Boolean value representing the validity of the input file path.</returns>
         public bool CanLoad(string path)
         {
             if (!File.Exists(path))
@@ -54,7 +69,7 @@
             return true;
         }
 
-        private void ValidateFolderName(string dateToValidate)
+        private void ValidateDirectoryName(string dateToValidate)
         {
             try
             {
