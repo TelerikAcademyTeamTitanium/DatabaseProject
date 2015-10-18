@@ -7,6 +7,7 @@
     {
         internal Client(string name, string address, string mobile, string email, string contact)
         {
+            DataValidator.ValidateClient(name, address, mobile, email, contact);
             this.Name = name;
             this.Address = address;
             this.Mobile = mobile;
