@@ -2,7 +2,8 @@
 {
     using System;
     using System.IO;
-
+    using System.Data;
+    using System.Data.OleDb;
     /// <summary>
     /// 
     /// </summary>
@@ -60,16 +61,29 @@
         /// <param name="filePath"></param>
         private void ReadExcelFile(string filePath)
         {
-            /*foreach (var worksheet in Workbook.Worksheets(filePath))
+            Console.WriteLine(filePath);
+
+            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + filePath + ";Extended Properties=Excel 8.0;");
+
+            OleDbDataAdapter da = new OleDbDataAdapter("select * from [Sheet1$]", con);
+
+            DataSet ds = new DataSet();
+
+            da.Fill(ds);
+            for (int i = 0; i < ds.Tables.Count; i++)
             {
-                foreach (var row in worksheet.Rows)
+                for (int j = 0; j < ds.Tables[i].Rows.Count; j++)
                 {
-                    foreach (var cell in row.Cells)
+                    for (int z = 0; z < ds.Tables[i].Rows[j].ItemArray.Length; z++)
                     {
-                        //Do some logic here.
+                        if (!ds.Tables[i].Rows[j].ItemArray[z].ToString().Equals(string.Empty))
+                        {
+                            Console.WriteLine(ds.Tables[i].Rows[j].ItemArray[z].ToString());
+                        }                        
                     }
                 }
-            }*/
+            }
+                con.Close();
         }
 
         // Method that recursively walks through a directory tree from a given path.
@@ -92,7 +106,11 @@
             {
                 foreach (FileInfo currentFile in filesToBeLoaded)
                 {
-                    this.ReadExcelFile(currentFile.FullName);
+                    //The first path to list here is the zip itself - we dont need it!
+                    if (!currentFile.Extension.Equals(".zip"))
+                    {
+                        this.ReadExcelFile(currentFile.FullName);
+                    }
                 }
 
                 rootSubDirectories = root.GetDirectories();
