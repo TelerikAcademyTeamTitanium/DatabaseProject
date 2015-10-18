@@ -60,7 +60,7 @@
         /// <param name="filePath"></param>
         private void ReadExcelFile(string filePath)
         {
-            foreach (var worksheet in Workbook.Worksheets(filePath))
+            /*foreach (var worksheet in Workbook.Worksheets(filePath))
             {
                 foreach (var row in worksheet.Rows)
                 {
@@ -69,7 +69,7 @@
                         //Do some logic here.
                     }
                 }
-            }
+            }*/
         }
 
         // Method that recursively walks through a directory tree from a given path.
