@@ -61,6 +61,7 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="MongoDbPopulator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataValidator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
