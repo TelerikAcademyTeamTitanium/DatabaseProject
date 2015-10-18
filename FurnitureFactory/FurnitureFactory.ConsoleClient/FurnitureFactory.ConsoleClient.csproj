@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61CAA77E-9CC8-4FAF-866D-C12C71AC83DD}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{029BF16E-A584-486D-9DDC-7A4B09B8BB22}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FurnitureFactory.Model</RootNamespace>
-    <AssemblyName>FurnitureFactory.Model</AssemblyName>
+    <RootNamespace>FurnitureFactory.ConsoleClient</RootNamespace>
+    <AssemblyName>FurnitureFactory.ConsoleClient</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -46,19 +48,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="Material.cs" />
-    <Compile Include="MaterialsPerProduct.cs" />
-    <Compile Include="Order.cs" />
-    <Compile Include="OrderStatus.cs" />
-    <Compile Include="Product.cs" />
-    <Compile Include="ProductsPerOrder.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Units.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FurnitureFactory.DataLoad\FurnitureFactory.DataLoad.csproj">
+      <Project>{3048c984-753c-4334-a4e4-0a6ab8f08906}</Project>
+      <Name>FurnitureFactory.DataLoad</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FurnitureFactory.Data\FurnitureFactory.Data.csproj">
+      <Project>{2e302578-ae58-44dc-885c-07a603ec8f8f}</Project>
+      <Name>FurnitureFactory.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FurnitureFactory.Model\FurnitureFactory.Models.csproj">
+      <Project>{61caa77e-9cc8-4faf-866d-c12c71ac83dd}</Project>
+      <Name>FurnitureFactory.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

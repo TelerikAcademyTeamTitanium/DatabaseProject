@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.DataLoad",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.Models", "FurnitureFactory.Model\FurnitureFactory.Models.csproj", "{61CAA77E-9CC8-4FAF-866D-C12C71AC83DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.Data", "FurnitureFactory.Data\FurnitureFactory.Data.csproj", "{2E302578-AE58-44DC-885C-07A603EC8F8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.ConsoleClient", "FurnitureFactory.ConsoleClient\FurnitureFactory.ConsoleClient.csproj", "{029BF16E-A584-486D-9DDC-7A4B09B8BB22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{61CAA77E-9CC8-4FAF-866D-C12C71AC83DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61CAA77E-9CC8-4FAF-866D-C12C71AC83DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61CAA77E-9CC8-4FAF-866D-C12C71AC83DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E302578-AE58-44DC-885C-07A603EC8F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E302578-AE58-44DC-885C-07A603EC8F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E302578-AE58-44DC-885C-07A603EC8F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E302578-AE58-44DC-885C-07A603EC8F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{029BF16E-A584-486D-9DDC-7A4B09B8BB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{029BF16E-A584-486D-9DDC-7A4B09B8BB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{029BF16E-A584-486D-9DDC-7A4B09B8BB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{029BF16E-A584-486D-9DDC-7A4B09B8BB22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

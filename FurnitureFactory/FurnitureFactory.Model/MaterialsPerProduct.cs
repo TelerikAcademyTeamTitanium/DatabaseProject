@@ -1,4 +1,6 @@
-﻿namespace FurnitureFactory.Model
+﻿using System.Collections.Generic;
+
+namespace FurnitureFactory.Model
 {
     using System;
 
