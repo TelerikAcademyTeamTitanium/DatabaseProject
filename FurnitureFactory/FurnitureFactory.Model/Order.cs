@@ -5,11 +5,11 @@
 
     public class Order
     {
-        private ICollection<Product> products;
+        private ICollection<ProductsPerOrder> productsPerOrder;
 
         public Order()
         {
-            this.products = new HashSet<Product>();
+            this.productsPerOrder = new HashSet<ProductsPerOrder>();
         }
 
         public int OrderId { get; set; }
@@ -26,10 +26,10 @@
 
         public virtual Client Client { get; set; }
 
-        public virtual ICollection<Product> Products
+        public virtual ICollection<ProductsPerOrder> ProductsPerOrder
         {
-            get { return this.products; }
-            set { this.products = value; }
+            get { return this.productsPerOrder; }
+            set { this.productsPerOrder = value; }
         }
     }
 }

@@ -5,11 +5,14 @@
 
     public class Product
     {
-        private ICollection<Material> materials;
+        private ICollection<MaterialsPerProduct> materialsPerProduct;
 
-        public Product()
+        private ICollection<ProductsPerOrder> productsPerOrder;
+
+      public Product()
         {
-            this.materials = new HashSet<Material>();
+            this.materialsPerProduct = new HashSet<MaterialsPerProduct>();
+            this.productsPerOrder = new HashSet<ProductsPerOrder>();
         }
 
         public int ProductId { get; set; }
@@ -18,10 +21,16 @@
 
         public decimal Price { get; set; }
 
-        public virtual ICollection<Material> Materials
+        public virtual ICollection<MaterialsPerProduct> MaterialsPerProduct
         {
-            get { return this.materials; }
-            set { this.materials = value; }
+            get { return this.materialsPerProduct; }
+            set { this.materialsPerProduct = value; }
+        }
+
+        public virtual ICollection<ProductsPerOrder> ProductsPerOrder
+        {
+            get { return this.productsPerOrder; }
+            set { this.productsPerOrder = value; }
         }
     }
 }

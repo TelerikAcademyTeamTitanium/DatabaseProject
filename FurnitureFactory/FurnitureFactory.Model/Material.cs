@@ -5,21 +5,23 @@
 
     public class Material
     {
-        private ICollection<Product> products;
+        private ICollection<MaterialsPerProduct> materialsPerProduct;
 
         public Material()
         {
-            this.products = new HashSet<Product>();
+            this.materialsPerProduct = new HashSet<MaterialsPerProduct>();
         }
 
         public int MaterialId { get; set; }
 
         public string Name { get; set; }
 
-        public virtual ICollection<Product> Products
+        public Units Unit { get; set; }
+
+        public virtual ICollection<MaterialsPerProduct> MaterialsPerProduct
         {
-            get { return this.products; }
-            set { this.products = value; }
+            get { return this.materialsPerProduct; }
+            set { this.materialsPerProduct = value; }
         }
     }
 }
