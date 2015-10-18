@@ -54,17 +54,35 @@
             }
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="filePath"></param>
+        private void ReadExcelFile(string filePath)
+        {
+            /*foreach (var worksheet in Workbook.Worksheets(filePath))
+            {
+                foreach (var row in worksheet.Rows)
+                {
+                    foreach (var cell in row.Cells)
+                    {
+                        //Do some logic here.
+                    }
+                }
+            }*/
+        }
+
         // Method that recursively walks through a directory tree from a given path.
         private void RecursiveDirectoryCrawler(DirectoryInfo root)
         {
             FileInfo[] filesToBeLoaded = null;
-            
+
             DirectoryInfo[] rootSubDirectories = null;
 
             try
             {
                 filesToBeLoaded = root.GetFiles("*.*");
-            }   
+            }
             catch (DirectoryNotFoundException e)
             {
                 Console.WriteLine(e.Message);
@@ -74,7 +92,7 @@
             {
                 foreach (FileInfo currentFile in filesToBeLoaded)
                 {
-                    Console.WriteLine(currentFile.FullName);
+                    this.ReadExcelFile(currentFile.FullName);
                 }
 
                 rootSubDirectories = root.GetDirectories();
