@@ -5,7 +5,17 @@
 
     public class Client
     {
+        internal Client(string name, string address, string mobile, string email, string contact)
+        {
+            this.Name = name;
+            this.Address = address;
+            this.Mobile = mobile;
+            this.Email = email;
+            this.Contact = contact;
+        }
+
         [BsonRepresentation(BsonType.ObjectId)]
+        [BsonId]
         public string ClientId { get; set; }
 
         public string Name { get; set; }
