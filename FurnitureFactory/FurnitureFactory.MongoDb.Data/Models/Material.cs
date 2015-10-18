@@ -7,6 +7,7 @@
     {
         internal Material(string name)
         {
+            DataValidator.ValidateMaterial(name);
             this.Name = name;
         }
 

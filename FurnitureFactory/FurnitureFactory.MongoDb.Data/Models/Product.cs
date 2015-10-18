@@ -7,6 +7,7 @@
     {
         internal Product(string name, double price)
         {
+            DataValidator.ValidateProduct(name);
             this.Name = name;
             this.Price = price;
             this.ProductId = ObjectId.GenerateNewId().ToString();
