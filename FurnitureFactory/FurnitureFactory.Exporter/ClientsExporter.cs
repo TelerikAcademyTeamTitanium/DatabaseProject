@@ -1,11 +1,10 @@
-﻿using System.Collections.Generic;
-using System.Data.Entity;
-using FurnitureFactory.Data;
-using FurnitureFactory.Model;
-using System.Linq;
-
-namespace FurnitureFactory.Exporter
+﻿namespace FurnitureFactory.Exporter
 {
+    using Data;
+    using Model;
+    using System.Collections.Generic;
+    using System.Linq;
+
     public class ClientsExporter
     {
         private FurnitureFactoryDbContext db;

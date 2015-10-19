@@ -2,17 +2,17 @@
 {
     using System.Collections.Generic;
     using System.IO;
-
-    using FurnitureFactory.Reports.Objects;
+    using Model;
+    using Exporter.Models;
 
     public abstract class FileExporter
     {
         private string outputPath;
 
-        public FileExporter(string outputPath, IList<Product> data)
+        public FileExporter(string outputPath, IList<ProductParse> data)
         {
             this.OutputPath = outputPath;
-            this.Data = new List<Product>(data);
+            this.Data = new List<ProductParse>(data);
         }
 
         public string OutputPath
@@ -32,7 +32,7 @@
             }
         }
 
-        public IList<Product> Data { get; set; }
+        public IList<ProductParse> Data { get; set; }
 
         public abstract void Export();
     }

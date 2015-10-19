@@ -1,0 +1,11 @@
+{
+  "ProductId": 1,
+  "Name": "Table",
+  "Price": 150.00,
+  "MaterialsPerProduct": [
+    {
+      "Name": "Wood",
+      "Unit": 4
+    }
+  ]
+}

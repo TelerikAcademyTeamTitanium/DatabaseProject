@@ -49,7 +49,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClientsExporter.cs" />
+    <Compile Include="Models\MaterialParse.cs" />
+    <Compile Include="Models\ProductParse.cs" />
     <Compile Include="OrdersExporter.cs" />
+    <Compile Include="ProductsExporter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StartUp.cs" />
   </ItemGroup>
@@ -65,6 +68,10 @@
     <ProjectReference Include="..\FurnitureFactory.Model\FurnitureFactory.Models.csproj">
       <Project>{61caa77e-9cc8-4faf-866d-c12c71ac83dd}</Project>
       <Name>FurnitureFactory.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FurnitureFactory.Utilities\FurnitureFactory.Utilities.csproj">
+      <Project>{5185b1c3-da86-4f0b-a70b-da852eefeb73}</Project>
+      <Name>FurnitureFactory.Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
