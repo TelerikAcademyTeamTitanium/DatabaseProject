@@ -5,7 +5,7 @@
 
     public class Material
     {
-        internal Material(string name)
+        internal Material(string name, int unit)
         {
             DataValidator.ValidateMaterial(name);
             this.Name = name;
@@ -16,5 +16,7 @@
         public string MaterialId { get; set; }
 
         public string Name { get; set; }
+
+        public int Unit { get; set; }
     }
 }

@@ -4,6 +4,7 @@
     using Models;
     using System;
     using System.Collections.Generic;
+    using FurnitureFactory.Utilities;
 
     public static class MongoDbPopulator
     {
@@ -39,7 +40,12 @@
 
         private static ICollection<Material> GetSampleMaterials()
         {
-            throw new NotImplementedException();
+            var materials = new List<Material>()
+            {
+                new Material("Wood", (int)Units.Piece),
+            };
+
+            return materials;
         }
     }
 }
