@@ -48,6 +48,10 @@
             var materials = new List<Material>()
             {
                 new Material("Wood", (int)Units.Piece),
+                new Material("Steel", (int)Units.Set),
+                new Material("Paper", (int)Units.SquareMeter),
+                new Material("Wool", (int)Units.Meter),
+                new Material("Leather", (int)Units.SquareMeter)
             };
 
             return materials;

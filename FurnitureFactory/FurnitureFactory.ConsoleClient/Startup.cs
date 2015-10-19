@@ -44,13 +44,13 @@
             // Testing importer
 
             MongoDbPopulator.PopulateFurnitureFactory();
-            ImportInMssql();
+            ImportMongoDbDataInMssql();
 
             Console.WriteLine("Ready!");
 
         }
 
-        private static void ImportInMssql()
+        private static void ImportMongoDbDataInMssql()
         {
             var clients = FurnitureFactoryMongoDbDAO.GetAllClients();
             var products = FurnitureFactoryMongoDbDAO.GetAllProducts();
