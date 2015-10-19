@@ -64,9 +64,17 @@
       <Project>{2e302578-ae58-44dc-885c-07a603ec8f8f}</Project>
       <Name>FurnitureFactory.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FurnitureFactory.Importer\FurnitureFactory.Importer.csproj">
+      <Project>{05921458-a206-47a4-81b6-2019258ac103}</Project>
+      <Name>FurnitureFactory.Importer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FurnitureFactory.Model\FurnitureFactory.Models.csproj">
       <Project>{61caa77e-9cc8-4faf-866d-c12c71ac83dd}</Project>
       <Name>FurnitureFactory.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FurnitureFactory.MongoDb.Data\FurnitureFactory.MongoDb.Data.csproj">
+      <Project>{2efd9a53-f9a5-49e3-a5f9-d3849e57269d}</Project>
+      <Name>FurnitureFactory.MongoDb.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\FurnitureFactory.Utilities\FurnitureFactory.Utilities.csproj">
       <Project>{5185b1c3-da86-4f0b-a70b-da852eefeb73}</Project>

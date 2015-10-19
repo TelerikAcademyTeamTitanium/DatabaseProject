@@ -35,7 +35,12 @@
 
         private static ICollection<Product> GetSampleProducts()
         {
-            throw new NotImplementedException();
+            var products = new List<Product>()
+            {
+                new Product("Chair", 14.50)
+            };
+
+            return products;
         }
 
         private static ICollection<Material> GetSampleMaterials()

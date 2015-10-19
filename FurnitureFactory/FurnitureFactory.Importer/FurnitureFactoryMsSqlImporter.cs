@@ -1,4 +1,4 @@
-﻿namespace FurnitureFactory.Translator
+﻿namespace FurnitureFactory.Importer
 {
     using System.Collections.Generic;
     using System.Linq;
@@ -11,9 +11,9 @@
     {
         private FurnitureFactoryDbContext dbContext;
 
-        public FurnitureFactoryMsSqlImporter(FurnitureFactoryDbContext dbContext)
+        public FurnitureFactoryMsSqlImporter()
         {
-            this.dbContext = dbContext;
+            this.dbContext = new FurnitureFactoryDbContext();
         }
 
         public void ImportClients(ICollection<MongoDb.Data.Models.Client> mongoClients)
