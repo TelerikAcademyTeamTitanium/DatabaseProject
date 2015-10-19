@@ -45,12 +45,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="JsonExporter.cs" />
-    <Compile Include="Objects\Product.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="FileExporter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FurnitureFactory.Exporter\FurnitureFactory.Exporter.csproj">
+      <Project>{22297f77-834d-4575-8c93-b9e1238c262e}</Project>
+      <Name>FurnitureFactory.Exporter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FurnitureFactory.Model\FurnitureFactory.Models.csproj">
+      <Project>{61caa77e-9cc8-4faf-866d-c12c71ac83dd}</Project>
+      <Name>FurnitureFactory.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -7,9 +7,15 @@
     using Utilities;
     using MongoDb.Data;
     using Importer;
+<<<<<<< HEAD
     using System.IO;
     using DataLoad;
     using System.Data;
+=======
+    using XmlReporter;
+    using Exporter;
+    using Reports;
+>>>>>>> refs/remotes/origin/master
 
     public class Startup
     {
@@ -48,6 +54,14 @@
 
             MongoDbPopulator.PopulateFurnitureFactory();
             ImportMongoDbDataInMssql();
+
+            var xmlReporter = new XmlExporter();
+            var clients = new ClientsExporter(new FurnitureFactoryDbContext()).Export();
+            xmlReporter.ExportClients(clients, "../../../../Exports/Xml/ClientsReport.xml");
+
+            var products = new ProductsExporter(new FurnitureFactoryDbContext()).Export();
+            var jsonReporter = new JsonExporter(JsonExporter.DefaultOutputPath, products);
+            jsonReporter.Export();
 
             Console.WriteLine("Ready!");
 

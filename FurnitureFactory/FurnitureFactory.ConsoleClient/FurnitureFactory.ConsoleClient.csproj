@@ -64,6 +64,10 @@
       <Project>{2e302578-ae58-44dc-885c-07a603ec8f8f}</Project>
       <Name>FurnitureFactory.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FurnitureFactory.Exporter\FurnitureFactory.Exporter.csproj">
+      <Project>{22297f77-834d-4575-8c93-b9e1238c262e}</Project>
+      <Name>FurnitureFactory.Exporter</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FurnitureFactory.Importer\FurnitureFactory.Importer.csproj">
       <Project>{05921458-a206-47a4-81b6-2019258ac103}</Project>
       <Name>FurnitureFactory.Importer</Name>
@@ -76,9 +80,17 @@
       <Project>{2efd9a53-f9a5-49e3-a5f9-d3849e57269d}</Project>
       <Name>FurnitureFactory.MongoDb.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FurnitureFactory.Reports\FurnitureFactory.Reports.csproj">
+      <Project>{98febbf0-70ed-459f-8edd-8554ced4f6a0}</Project>
+      <Name>FurnitureFactory.Reports</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FurnitureFactory.Utilities\FurnitureFactory.Utilities.csproj">
       <Project>{5185b1c3-da86-4f0b-a70b-da852eefeb73}</Project>
       <Name>FurnitureFactory.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FurnitureFactory.XmlReporter\FurnitureFactory.XmlReporter.csproj">
+      <Project>{7083c62e-ac8f-4a2a-b343-ffb9ec01ddb5}</Project>
+      <Name>FurnitureFactory.XmlReporter</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

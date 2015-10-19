@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.Importer",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.XmlReporter", "FurnitureFactory.XmlReporter\FurnitureFactory.XmlReporter.csproj", "{7083C62E-AC8F-4A2A-B343-FFB9EC01DDB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.Exporter", "FurnitureFactory.Exporter\FurnitureFactory.Exporter.csproj", "{22297F77-834D-4575-8C93-B9E1238C262E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.XmlToDbParser", "FurnitureFactory.XmlToDbParser\FurnitureFactory.XmlToDbParser.csproj", "{12D12ED9-1144-4628-B5A7-E3A326D18D49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{7083C62E-AC8F-4A2A-B343-FFB9EC01DDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7083C62E-AC8F-4A2A-B343-FFB9EC01DDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7083C62E-AC8F-4A2A-B343-FFB9EC01DDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22297F77-834D-4575-8C93-B9E1238C262E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22297F77-834D-4575-8C93-B9E1238C262E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22297F77-834D-4575-8C93-B9E1238C262E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22297F77-834D-4575-8C93-B9E1238C262E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12D12ED9-1144-4628-B5A7-E3A326D18D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12D12ED9-1144-4628-B5A7-E3A326D18D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12D12ED9-1144-4628-B5A7-E3A326D18D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12D12ED9-1144-4628-B5A7-E3A326D18D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="Comments.xsl"?>
+<comments-by-date>
+  <client name="Kamen Ivanov">
+    <comment date="20.06.2015">Needs to meet the manager.</comment>
+  </client>
+  <client name="ET Simov">
+	<comment date="25.06.2015">Asked for installments pay.</comment>
+  </client>
+  <client name="ET Mishev">
+    <comment date="12.04.2014">Provided corrections in measurements.</comment>
+  </client>
+  <client name="Mihail Ivanov">
+    <comment date="15.04.2014">Aked. for a change in color</comment>
+  </client>
+  <client name="Petio Lazarov">
+    <comment date="1.02.2015">Awaiting an exchange of broken chair arm.</comment>
+  </client>
+</comments-by-date>

@@ -2,28 +2,49 @@
 {
     using System.Xml.Linq;
     using System.Collections.Generic;
-    using FurnitureFactory.XmlReporter.Objects;
+    using FurnitureFactory.Model;
 
-    public class XmlExporter : FileExporter
+    public class XmlExporter
     {
-        public XmlExporter(string outputPath, IList<Orders> data)
-            : base(outputPath, data)
-        { 
+        public XmlExporter()
+        {
         }
 
-        public override void Export()
+        public void ExportOrders(IList<Order> orders, string exportTo)
         {
-            foreach (Orders order in this.Data)
-            {
-                XElement report =
-                    new XElement("orders",
-                        new XElement("order", new XAttribute("client", order.Client), 
-                        new XElement("summary", 
-                            new XAttribute("dueDate", order.DueData),
-                            new XAttribute("status", order.Status))));
+            XElement report =
+                    new XElement("orders");
 
-                report.Save(this.OutputPath);
+            foreach (Order order in orders)
+            {
+                report.Add(
+                    new XElement("order", new XAttribute("client", order.Client),
+                    new XElement("summary",
+                        new XAttribute("dueDate", order.DueData),
+                        new XAttribute("status", order.Status)))
+                ); 
             }
+
+            report.Save(exportTo);
+        }
+
+        public void ExportClients(IList<Client> clients, string exportTo)
+        {
+            XElement report =
+                    new XElement("clients");
+            foreach (Client client in clients)
+            {
+                report.Add(
+                        new XElement("client",
+                            new XElement("name", client.Name),
+                            new XElement("mobile", client.Mobile),
+                            new XElement("email", client.Email),
+                            new XElement("contact", client.Contact),
+                            new XElement("address", client.Address))
+                );
+            }
+
+            report.Save(exportTo);
         }
     }
 }

@@ -13,6 +13,7 @@
             this.Mobile = mobile;
             this.Email = email;
             this.Contact = contact;
+            this.ClientId = ObjectId.GenerateNewId().ToString();
         }
 
         [BsonRepresentation(BsonType.ObjectId)]

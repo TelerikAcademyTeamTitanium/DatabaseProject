@@ -9,6 +9,8 @@
         {
             DataValidator.ValidateMaterial(name);
             this.Name = name;
+            this.Unit = unit;
+            this.MaterialId = ObjectId.GenerateNewId().ToString();
         }
 
         [BsonRepresentation(BsonType.ObjectId)]
