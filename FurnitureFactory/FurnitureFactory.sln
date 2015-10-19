@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.DataLoad", "FurnitureFactory.DataLoad\FurnitureFactory.DataLoad.csproj", "{3048C984-753C-4334-A4E4-0A6AB8F08906}"
 EndProject
@@ -20,6 +20,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.Importer", "FurnitureFactory.Importer\FurnitureFactory.Importer.csproj", "{05921458-A206-47A4-81B6-2019258AC103}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.XmlReporter", "FurnitureFactory.XmlReporter\FurnitureFactory.XmlReporter.csproj", "{7083C62E-AC8F-4A2A-B343-FFB9EC01DDB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FurnitureFactory.Exporter", "FurnitureFactory.Exporter\FurnitureFactory.Exporter.csproj", "{22297F77-834D-4575-8C93-B9E1238C262E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{7083C62E-AC8F-4A2A-B343-FFB9EC01DDB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7083C62E-AC8F-4A2A-B343-FFB9EC01DDB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7083C62E-AC8F-4A2A-B343-FFB9EC01DDB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22297F77-834D-4575-8C93-B9E1238C262E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22297F77-834D-4575-8C93-B9E1238C262E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22297F77-834D-4575-8C93-B9E1238C262E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22297F77-834D-4575-8C93-B9E1238C262E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

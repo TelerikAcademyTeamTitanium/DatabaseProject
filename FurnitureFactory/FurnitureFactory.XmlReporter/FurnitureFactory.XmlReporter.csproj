@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FileExporter.cs" />
-    <Compile Include="Objects\Orders.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XmlExporter.cs" />
   </ItemGroup>

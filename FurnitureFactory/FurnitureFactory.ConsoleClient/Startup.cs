@@ -7,6 +7,8 @@
     using Utilities;
     using MongoDb.Data;
     using Importer;
+    using XmlReporter;
+    using Exporter;
 
     public class Startup
     {
@@ -43,9 +45,11 @@
 
             // Testing importer
 
-            MongoDbPopulator.PopulateFurnitureFactory();
-            ImportMongoDbDataInMssql();
-
+            // MongoDbPopulator.PopulateFurnitureFactory();
+            // ImportMongoDbDataInMssql();
+            var xmlReporter = new XmlExporter();
+            var clients = new ClientsExporter(new FurnitureFactoryDbContext()).Export();
+            xmlReporter.ExportClients(clients, "../../../../Exports/ClientsReport.xml");
             Console.WriteLine("Ready!");
 
         }
