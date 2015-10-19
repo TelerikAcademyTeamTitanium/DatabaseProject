@@ -4,11 +4,14 @@
     using System.IO;
     using System.Data;
     using System.Data.OleDb;
+    using System.Collections.Generic;
     /// <summary>
     /// 
     /// </summary>
     public class ExcelDataReader : IFileReader
     {
+        private List<DataSet> excelDataSet = new List<DataSet>();
+        
         private ExcelDataReader()
         {
         }
@@ -20,6 +23,18 @@
         public static ExcelDataReader Create()
         {
             return new ExcelDataReader();
+        }
+
+        public List<DataSet> ExcelData 
+        {
+            get
+            {
+                return this.excelDataSet;
+            }
+            private set
+            {
+                this.excelDataSet = value;
+            }
         }
 
         /// <summary>
@@ -59,31 +74,28 @@
         /// 
         /// </summary>
         /// <param name="filePath"></param>
-        private void ReadExcelFile(string filePath)
+        private DataSet ReadExcelFile(string filePath)
         {
             Console.WriteLine(filePath);
 
-            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + filePath + ";Extended Properties=Excel 8.0;");
-
+            OleDbConnection con = new OleDbConnection(@"Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + filePath + ";Extended Properties='Excel 8.0;HDR=No;IMEX=1;';");
+            con.Open(); 
             OleDbDataAdapter da = new OleDbDataAdapter("select * from [Sheet1$]", con);
 
             DataSet ds = new DataSet();
 
             da.Fill(ds);
-            for (int i = 0; i < ds.Tables.Count; i++)
-            {
-                for (int j = 0; j < ds.Tables[i].Rows.Count; j++)
-                {
-                    for (int z = 0; z < ds.Tables[i].Rows[j].ItemArray.Length; z++)
-                    {
-                        if (!ds.Tables[i].Rows[j].ItemArray[z].ToString().Equals(string.Empty))
-                        {
-                            Console.WriteLine(ds.Tables[i].Rows[j].ItemArray[z].ToString());
-                        }                        
-                    }
-                }
-            }
-                con.Close();
+            for (int i = 0; i < ds.Tables[0].Rows.Count; i++) 
+             { 
+                 for (int j = 0; j < ds.Tables[0].Columns.Count; j++) 
+                 { 
+                     Console.Write(ds.Tables[0].Rows[i][j].ToString() + ' '); 
+                 } 
+                 Console.WriteLine(); 
+             } 
+
+            con.Close();
+            return ds;
         }
 
         // Method that recursively walks through a directory tree from a given path.
@@ -109,7 +121,7 @@
                     //The first path to list here is the zip itself - we dont need it!
                     if (!currentFile.Extension.Equals(".zip"))
                     {
-                        this.ReadExcelFile(currentFile.FullName);
+                        excelDataSet.Add(this.ReadExcelFile(currentFile.FullName));
                     }
                 }
 

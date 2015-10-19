@@ -14,9 +14,9 @@
 
         public int OrderId { get; set; }
 
-        public DateTime ReceivedData { get; set; }
+        public string ReceivedData { get; set; }
 
-        public DateTime DueData { get; set; }
+        public string DueData { get; set; }
 
         public OrderStatus Status { get; set; }
 

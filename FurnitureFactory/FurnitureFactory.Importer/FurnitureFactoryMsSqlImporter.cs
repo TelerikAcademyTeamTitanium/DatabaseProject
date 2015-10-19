@@ -6,6 +6,9 @@
     using Data;
     using Utilities;
     using System;
+    using System.Data;
+    using System.Data.SqlClient;
+    using System.Globalization;
 
     public class FurnitureFactoryMsSqlImporter
     {
@@ -89,6 +92,28 @@
                     this.dbContext.Dispose();
                     this.dbContext = new FurnitureFactoryDbContext();
                 }
+            }
+
+            this.dbContext.SaveChanges();
+        }
+
+        public void ImportOrders(DataSet data)
+        {
+            DataTable table = data.Tables[0];
+            var order = new Model.Order();
+            order.Client = new Model.Client();
+            try
+            {
+                order.ReceivedData = table.Rows[0][0].ToString();
+                order.DueData = table.Rows[0][1].ToString();
+                order.Status = (Model.OrderStatus)Int16.Parse(table.Rows[0][2].ToString());
+                order.Comment = table.Rows[0][3].ToString();
+                order.Client.ClientId = Int32.Parse(table.Rows[0][4].ToString());
+                this.dbContext.Orders.Add(order);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
             }
 
             this.dbContext.SaveChanges();

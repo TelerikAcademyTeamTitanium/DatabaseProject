@@ -1,8 +1,9 @@
-﻿namespace FurnitureFactory.Data
+﻿using FurnitureFactory.Model;
+
+namespace FurnitureFactory.Data
 {
     using System;
     using System.Data.Entity;
-    using Model;
 
     public class FurnitureFactoryDbContext : DbContext
     {
