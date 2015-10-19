@@ -4,14 +4,13 @@
     using System.Collections.Generic;
     using FurnitureFactory.Model;
 
-    public class XmlExporter : FileExporter
+    public class XmlExporter
     {
         public XmlExporter()
-            : base()
         {
         }
 
-        public override void ExportOrders(IList<Order> orders, string exportTo)
+        public void ExportOrders(IList<Order> orders, string exportTo)
         {
             XElement report =
                     new XElement("orders");
@@ -23,10 +22,10 @@
                     new XElement("summary",
                         new XAttribute("dueDate", order.DueData),
                         new XAttribute("status", order.Status)))
-                );
-            
-                report.Save(exportTo);
+                ); 
             }
+
+            report.Save(exportTo);
         }
 
         public void ExportClients(IList<Client> clients, string exportTo)

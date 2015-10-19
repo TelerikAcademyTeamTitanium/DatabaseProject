@@ -19,9 +19,9 @@ namespace FurnitureFactory.Exporter
 
         public IList<Order> Export()
         {
-            var clients = db.Orders.ToList<Order>();
+            var orders = db.Orders.ToList<Order>();
 
-            return clients;
+            return orders;
         }
     }
 }
