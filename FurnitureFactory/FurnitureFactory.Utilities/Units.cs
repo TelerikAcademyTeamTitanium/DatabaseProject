@@ -1,4 +1,4 @@
-﻿namespace FurnitureFactory.Model
+﻿namespace FurnitureFactory.Utilities
 {
     using System;
 

@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FurnitureFactory.Data;
-using FurnitureFactory.Model;
-
-namespace FurnitureFactory.ConsoleClient
+﻿namespace FurnitureFactory.ConsoleClient
 {
+    using System;
+
+    using Data;
+    using Model;
+    using Utilities;
+
    public class Startup
     {
         static void Main()
