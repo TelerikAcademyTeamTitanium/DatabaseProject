@@ -16,8 +16,8 @@
             foreach (Orders order in this.Data)
             {
                 XElement report =
-                    new XElement("sales",
-                        new XElement("sale", new XAttribute("client", order.Client), 
+                    new XElement("orders",
+                        new XElement("order", new XAttribute("client", order.Client), 
                         new XElement("summary", 
                             new XAttribute("dueDate", order.DueData),
                             new XAttribute("status", order.Status))));
