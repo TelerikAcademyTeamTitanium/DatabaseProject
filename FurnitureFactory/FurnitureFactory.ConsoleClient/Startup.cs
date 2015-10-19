@@ -7,6 +7,9 @@
     using Utilities;
     using MongoDb.Data;
     using Importer;
+    using System.IO;
+    using DataLoad;
+    using System.Data;
 
     public class Startup
     {
@@ -52,15 +55,28 @@
 
         private static void ImportMongoDbDataInMssql()
         {
+            /*
             var clients = FurnitureFactoryMongoDbDAO.GetAllClients();
             var products = FurnitureFactoryMongoDbDAO.GetAllProducts();
             var materials = FurnitureFactoryMongoDbDAO.GetAllMaterials();
-
+            */
             var importer = new FurnitureFactoryMsSqlImporter();
-
+            
+            /*
             importer.ImportClients(clients);
             importer.ImportProducts(products);
             importer.ImportMaterials(materials);
+            */
+            string zipFilePath = "../../../../ExcelTables/test.zip";
+            FileInfo info = new FileInfo(zipFilePath);
+            ZipFileReader zipReader = ZipFileReader.Create();
+            zipReader.ReadFile(zipFilePath);
+            ExcelDataReader excelReader = ExcelDataReader.Create();
+            excelReader.ReadFile(info.DirectoryName);
+            for (int i = 0; i < excelReader.ExcelData.Count; i++)
+            {
+                importer.ImportOrders(excelReader.ExcelData[i]);
+            }
         }
     }
 }
