@@ -19,7 +19,7 @@
             {
                 var serializedProduct = JsonConvert.SerializeObject(item, Formatting.Indented);
                 string fileName = item.Id + ".json";
-                File.WriteAllText(fileName, serializedProduct);
+                File.WriteAllText(this.OutputPath + fileName, serializedProduct);
             }
         }
     }
