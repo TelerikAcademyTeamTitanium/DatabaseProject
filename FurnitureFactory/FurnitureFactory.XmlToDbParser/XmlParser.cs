@@ -21,7 +21,7 @@
                 {
                     Name = client.Attribute("name").Value,
                     Comment = client.Element("comment").FirstNode.ToString(),
-                    Date = Convert.ToDateTime(client.Element("comment").FirstAttribute.Value)
+                    Date = client.Element("comment").FirstAttribute.Value
                 };
 
             foreach (var comment in comments)
