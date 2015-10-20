@@ -1,0 +1,1844 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clients>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name />
+    <mobile />
+    <email />
+    <contact />
+    <address />
+  </client>
+  <client>
+    <name />
+    <mobile />
+    <email />
+    <contact />
+    <address />
+  </client>
+  <client>
+    <name />
+    <mobile />
+    <email />
+    <contact />
+    <address />
+  </client>
+  <client>
+    <name />
+    <mobile />
+    <email />
+    <contact />
+    <address />
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name>Gosho</name>
+    <mobile>0884553245</mobile>
+    <email>gosho@telerik.com</email>
+    <contact>Gosho Peshov</contact>
+    <address>Sofia, Mladost, bul. A.Malinov</address>
+  </client>
+  <client>
+    <name>Perfekt Mebel</name>
+    <mobile>0888436778</mobile>
+    <email>perfekt@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Lulin 3, bl.340</address>
+  </client>
+  <client>
+    <name>Mebelni Idei</name>
+    <mobile>0898123890</mobile>
+    <email>mebelniidei@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Suhata Reka, bl.45</address>
+  </client>
+  <client>
+    <name>Mebeli Roko</name>
+    <mobile>0878145298</mobile>
+    <email>mroko@abv.bg</email>
+    <contact></contact>
+    <address>Sofia, Mariya Luiza 15</address>
+  </client>
+  <client>
+    <name>TiD Mebel</name>
+    <mobile>0888723835</mobile>
+    <email>tidmebel@mail.bg</email>
+    <contact></contact>
+    <address>Sofia, Boyana, Student Kladenec 32</address>
+  </client>
+  <client>
+    <name>Mebelina</name>
+    <mobile>0883456123</mobile>
+    <email>mebelina@abv.bg</email>
+    <contact></contact>
+    <address>Pernik, ul. Vasil Levski 10</address>
+  </client>
+  <client>
+    <name>Interiori</name>
+    <mobile>0889561290</mobile>
+    <email>interiori@gmail.com</email>
+    <contact></contact>
+    <address>Sofia, Voenna Rampa</address>
+  </client>
+  <client>
+    <name>Mebelisimo</name>
+    <mobile>0888890345</mobile>
+    <email>mebelisimo@abv.bg</email>
+    <contact></contact>
+    <address>Plovdiv, Opulchenska 45</address>
+  </client>
+  <client>
+    <name>GTC Design</name>
+    <mobile>0883123659</mobile>
+    <email>office@gtcdesign.com</email>
+    <contact></contact>
+    <address>Plovdiv, Trakia, bl.101</address>
+  </client>
+  <client>
+    <name>Delfos Design</name>
+    <mobile>0888</mobile>
+    <email>info@delfos.com</email>
+    <contact></contact>
+    <address>Sofia, Slatina, bl.1</address>
+  </client>
+  <client>
+    <name>Archidea</name>
+    <mobile>0888</mobile>
+    <email>office@archidea.com</email>
+    <contact></contact>
+    <address>Pernik, ul.Osvobojdenska 132</address>
+  </client>
+  <client>
+    <name>Mebelna Fabrika Irim</name>
+    <mobile>0888</mobile>
+    <email>office@irim.com</email>
+    <contact></contact>
+    <address>Ruse, Zapanda Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Kolorado</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, Industrialna Zona</address>
+  </client>
+  <client>
+    <name>Ikar 2006</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Elena, ul. Stara Planina 1</address>
+  </client>
+  <client>
+    <name>Koral</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Pazardjik, ul. Levski 14</address>
+  </client>
+  <client>
+    <name>Neoform</name>
+    <mobile>0888</mobile>
+    <email>@gmail.com</email>
+    <contact></contact>
+    <address>Varna, bul. Vladislav Varnenchik 100</address>
+  </client>
+  <client>
+    <name>Diel 09</name>
+    <mobile>0888</mobile>
+    <email>diel09@abv.bg</email>
+    <contact>Lybomir Ivanov</contact>
+    <address>Sofia, Mladost</address>
+  </client>
+  <client>
+    <name />
+    <mobile />
+    <email />
+    <contact />
+    <address />
+  </client>
+  <client>
+    <name />
+    <mobile />
+    <email />
+    <contact />
+    <address />
+  </client>
+  <client>
+    <name />
+    <mobile />
+    <email />
+    <contact />
+    <address />
+  </client>
+  <client>
+    <name />
+    <mobile />
+    <email />
+    <contact />
+    <address />
+  </client>
+</clients>
